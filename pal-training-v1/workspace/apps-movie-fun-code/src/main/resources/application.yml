@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    generate-ddl: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/movies?useSSL=false
+    username: root
+    password: qawsedr@1234
+
+  mvc.view:
+    prefix: /WEB-INF/
+    suffix: .jsp
+
+logging.level:
+  root: WARN
+  org.superbiz: DEBUG
+
+s3:
+  accessKey: AKIAIRW2OU4MJ4A2J6AQ
+  secretKey: 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
+  bucketName: student-artifacts-culebra
+
+rabbitmq:
+  uri: amqp://guest:guest@localhost
+  queue: my-rabbit-queue
