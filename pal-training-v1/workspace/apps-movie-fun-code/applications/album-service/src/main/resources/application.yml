@@ -2,19 +2,17 @@ server.port: 8081
 
 spring:
   jpa:
-    generate-ddl: true
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
 
   datasource:
     url: jdbc:mysql://localhost:3306/albums?useSSL=false
     username: root
-    password: qawsedr@1234
 
 logging.level:
   root: WARN
   org.superbiz.moviefun: DEBUG
 
 s3:
-  accessKey: TXHBRDU6TS5D6UZLN6FV
-  secretKey: Drjbetws0SC1zTo8NGFQa8lBJhB2n5TmS2OgSmTF
-  bucketName: student-artifacts-culebra
+  accessKey: <access key id>
+  secretKey: <secret access key>
+  bucketName: <name of the bucket>

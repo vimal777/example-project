@@ -6,8 +6,6 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/movies?useSSL=false
     username: root
-    password: qawsedr@1234
-
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
@@ -17,9 +15,9 @@ logging.level:
   org.superbiz.moviefun: DEBUG
 
 s3:
-  accessKey: TXHBRDU6TS5D6UZLN6FV
-  secretKey: Drjbetws0SC1zTo8NGFQa8lBJhB2n5TmS2OgSmTF
-  bucketName: student-artifacts-culebra
+  accessKey: <access key id>
+  secretKey: <secret access key>
+  bucketName: <name of the bucket>
 
 albums:
   url: http://localhost:8081/albums
